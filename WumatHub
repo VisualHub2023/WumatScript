@@ -48,7 +48,7 @@ Tab:AddButton({
     Name = "ON",
     Callback = function()
               print("Click here!")
-      loadstring(game:HttpGet('https://raw.githubusercontent.com/lf4d7/daphie/main/psx%20vision'))()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/VisualHub2023/WumatScript/main/PetChanger'))()
         end    
 })
 

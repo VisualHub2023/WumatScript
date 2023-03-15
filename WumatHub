@@ -17,7 +17,7 @@ local Tab = Window:MakeTab({
 })
 
 local Section = Tab:AddSection({
-    Name = "[IF V1 IS NOT WORKING TRY THE V2 AND THE KEY 1YEAR VEFORE EXPIRED]"
+    Name = "[IF V1 IS NOT WORKING TRY THE V2]"
 }) 
 
 local Tab = Window:MakeTab({
@@ -34,7 +34,7 @@ Tab:AddButton({
     Name = "ON",
     Callback = function()
               print("Click here!")
-      loadstring(game:HttpGet('https://pastebin.com/raw/FY6iEgrJ'))()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/VisualHub2023/WumatScript/main/PetChanger'))()
         end    
 
 })
@@ -48,7 +48,7 @@ Tab:AddButton({
     Name = "ON",
     Callback = function()
               print("Click here!")
-      loadstring(game:HttpGet('https://raw.githubusercontent.com/lf4d7/daphie/main/psx%20vision'))()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/VisualHub2023/WumatScript/main/PetChanger'))()
         end    
 })
 

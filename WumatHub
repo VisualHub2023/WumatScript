@@ -1,8 +1,8 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-    local Window = OrionLib:MakeWindow({Name = "Wumat Visual Script", HidePremium = false, SaveConfig = true, ConfigFolder = "SpartanPlutonFolder"})
+local Window = OrionLib:MakeWindow({Name = "Wumat Visual Script", HidePremium = false, SaveConfig = true, ConfigFolder = "SpartanPlutonFolder"})
 OrionLib:MakeNotification({
-    Name = "Wumat Hub Script",
+    Name = "Wumat Visual Hub",
     Content = "Launching Success!",
     Image = "rbxassetid://4483345998",
     Time = 10
@@ -17,7 +17,7 @@ local Tab = Window:MakeTab({
 })
 
 local Section = Tab:AddSection({
-    Name = "[IF V1 IS NOT WORKING TRY THE V2]"
+    Name = "[IF THAT V1 DOESN'T WORK TRY THAT V2]"
 }) 
 
 local Tab = Window:MakeTab({
@@ -34,7 +34,7 @@ Tab:AddButton({
     Name = "ON",
     Callback = function()
               print("Click here!")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/VisualHub2023/WumatScript/main/PetChanger"))()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/VisualHub2023/WumatScript/main/PetChanger'))()
         end    
 
 })
@@ -48,7 +48,7 @@ Tab:AddButton({
     Name = "ON",
     Callback = function()
               print("Click here!")
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/VisualHub2023/WumatScript/main/PetChanger"))()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/lf4d7/daphie/main/psx%20vision'))()
         end    
 })
 

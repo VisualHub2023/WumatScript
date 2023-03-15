@@ -1,8 +1,8 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Wumat Pet Changer Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "SpartanPlutonFolder"})
+    local Window = OrionLib:MakeWindow({Name = "Wumat Visual Script", HidePremium = false, SaveConfig = true, ConfigFolder = "SpartanPlutonFolder"})
 OrionLib:MakeNotification({
-    Name = "WumatHub",
+    Name = "Wumat Hub Script",
     Content = "Launching Success!",
     Image = "rbxassetid://4483345998",
     Time = 10
@@ -17,41 +17,39 @@ local Tab = Window:MakeTab({
 })
 
 local Section = Tab:AddSection({
-    Name = "[IF NOT WORKING V1 TRY THE V2]"
+    Name = "[IF V1 IS NOT WORKING TRY THE V2 AND THE KEY 1YEAR VEFORE EXPIRED]"
 }) 
 
 local Tab = Window:MakeTab({
-    Name = "PetChanger",
+    Name = "PetChangerID",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local Section = Tab:AddSection({
-    Name = "Pet Changer V1"
+    Name = "PetChangerID V1"
 })
 
 Tab:AddButton({
     Name = "ON",
     Callback = function()
               print("Click here!")
-      getgenv().key = "3587113a60a2e4ef5fd91a8154976336"
-loadstring(game:HttpGetAsync("https://wumat.xyz/scripts/wumats-visual-hub.lua", true))()
-        end
+      loadstring(game:HttpGet('https://pastebin.com/raw/FY6iEgrJ'))()
+        end    
 
 })
 
 
 local Section = Tab:AddSection({
-    Name = "Pet Changer V2"
+    Name = "PetChangerID V2"
 })
 
 Tab:AddButton({
     Name = "ON",
     Callback = function()
               print("Click here!")
-      getgenv().key = "3587113a60a2e4ef5fd91a8154976336"
-loadstring(game:HttpGetAsync("https://wumat.xyz/scripts/wumats-visual-hub.lua", true))()
-        end
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/lf4d7/daphie/main/psx%20vision'))()
+        end    
 })
 
 local Tab = Window:MakeTab({
@@ -68,9 +66,7 @@ Tab:AddButton({
     Name = "ON",
     Callback = function()
               print("Click here!")
-      getgenv().key = "3587113a60a2e4ef5fd91a8154976336"
-loadstring(game:HttpGetAsync("https://wumat.xyz/scripts/wumats-visual-hub.lua", true))()
-        end
+      end    
 })
 
 local Tab = Window:MakeTab({
@@ -86,5 +82,5 @@ Tab:AddBind({
     Callback = function()
         print("Press here!")
     OrionLib:Destroy()
-    end
+    end    
 })

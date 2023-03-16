@@ -34,7 +34,7 @@ Tab:AddButton({
     Name = "ON",
     Callback = function()
               print("Click here!")
-      loadstring(game:HttpGet('https://pastebin.com/raw/XwXz5QVq'))()
+      loadstring(game:HttpGet('https://pastebin.com/raw/4Lg12SD8'))()
         end    
 
 })
@@ -48,7 +48,7 @@ Tab:AddButton({
     Name = "ON",
     Callback = function()
               print("Click here!")
-      loadstring(game:HttpGet('https://pastebin.com/raw/XwXz5QVq'))()
+      loadstring(game:HttpGet('https://pastebin.com/raw/4Lg12SD8'))()
         end    
 })
 

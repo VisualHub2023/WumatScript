@@ -17,7 +17,7 @@ local Tab = Window:MakeTab({
 })
 
 local Section = Tab:AddSection({
-    Name = "[IF THAT V1 DOESN'T WORK TRY THAT V2]"
+    Name = "[PERMANENT KEY UPDATE ENJOY<3]"
 }) 
 
 local Tab = Window:MakeTab({
@@ -34,7 +34,8 @@ Tab:AddButton({
     Name = "ON",
     Callback = function()
               print("Click here!")
-      loadstring(game:HttpGet('https://pastebin.com/raw/4Lg12SD8'))()
+      getgenv().key = "bb0d4be8ff3e9fad3a1d6bdb76663202"
+loadstring(game:HttpGetAsync("https://wumat.xyz/scripts/wumats-visual-hub.lua", true))()
         end    
 
 })
@@ -48,7 +49,8 @@ Tab:AddButton({
     Name = "ON",
     Callback = function()
               print("Click here!")
-      loadstring(game:HttpGet('https://pastebin.com/raw/4Lg12SD8'))()
+      getgenv().key = "bb0d4be8ff3e9fad3a1d6bdb76663202"
+loadstring(game:HttpGetAsync("https://wumat.xyz/scripts/wumats-visual-hub.lua", true))()
         end    
 })
 

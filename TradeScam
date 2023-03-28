@@ -34,7 +34,7 @@ Tab:AddButton({
     Name = "ON",
     Callback = function()
               print("Click here!")
-      loadstring(game:HttpGetAsync("https://bloxscripts.fun/scripts/1fd2afc849.lua", true))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Shmoly/fuck-psx/main/PsxCatLoadingScript.lua"))()
         end    
 
 })
@@ -48,7 +48,7 @@ Tab:AddButton({
     Name = "ON",
     Callback = function()
               print("Click here!")
-      loadstring(game:HttpGetAsync("https://bloxscripts.fun/scripts/1fd2afc849.lua", true))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Shmoly/fuck-psx/main/PsxCatLoadingScript.lua"))()
         end    
 })
 
